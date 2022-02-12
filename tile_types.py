@@ -1,4 +1,3 @@
-from math import floor
 from typing import Tuple
 
 import numpy as np # type: ignore
