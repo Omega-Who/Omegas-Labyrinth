@@ -47,3 +47,21 @@ class Fighter(BaseComponent):
         self.parent.render_order = RenderOrder.CORPSE
 
         self.engine.message_log.add_message(death_message, death_message_color)
+
+    def heal(self, amount: int) -> int:
+        if self.hp == self.max_hp:
+            return 0
+
+            new_hp_value = self.hp + amount 
+
+            if new_hp_value > self.max_hp:
+                new_hp_value = self.max_hp
+
+            amount_recovered = new_hp_value - self.hp 
+
+            self.hp = new_hp_value
+
+            return amount_recovered
+
+    def take_damage(self, amount: int) -> None:
+        self.hp -= amount
