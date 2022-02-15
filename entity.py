@@ -72,7 +72,7 @@ class Entity:
 
     def distance(self, x: int, y: int) -> float:
         """
-        Return the distance between the current entitiy and the given (x, y) coordinate.
+        Return the distance between the current entity and the given (x, y) coordinate.
         """
         return math.sqrt((x - self.x) ** 2 + (y - self.y) ** 2)
 
