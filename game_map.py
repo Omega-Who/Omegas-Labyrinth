@@ -37,7 +37,7 @@ class GameMap:
     def actors(self) -> Iterator[Actor]:
         """Iterate over this maps living actors."""
         yield from (
-            entity 
+            entity
             for entity in self.entities
             if isinstance(entity, Actor) and entity.is_alive
         )
@@ -54,7 +54,7 @@ class GameMap:
                 entity.blocks_movement
                 and entity.x == location_x
                 and entity.y == location_y
-            ):   
+            ):
                 return entity
 
         return None
@@ -62,7 +62,7 @@ class GameMap:
     def get_actor_at_location(self, x: int, y: int) -> Optional[Actor]:
         for actor in self.actors:
             if actor.x == x and actor.y == y:
-                return actor 
+                return actor
 
         return None
 

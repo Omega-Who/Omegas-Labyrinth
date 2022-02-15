@@ -1,20 +1,20 @@
-from typing import Iterable, List, Reversible, Tuple 
+from typing import Iterable, List, Reversible, Tuple
 import textwrap
 
-import tcod 
+import tcod
 
-import color 
+import color
 
 
 class Message:
     def __init__(self, text: str, fg: Tuple[int, int, int]):
-        self.plain_text = text 
-        self.fg = fg 
+        self.plain_text = text
+        self.fg = fg
         self.count = 1
 
     @property
     def full_text(self) -> str:
-        """The full teext of this message, including the cound if necessary"""
+        """The full text of this message, including the count if necessary."""
         if self.count > 1:
             return f"{self.plain_text} (x{self.count})"
         return self.plain_text
@@ -25,26 +25,30 @@ class MessageLog:
         self.messages: List[Message] = []
 
     def add_message(
-        self, text: str, fg: Tuple[int, int, int] = color.white, *, stack:bool = True,
+        self, text: str, fg: Tuple[int, int, int] = color.white, *, stack: bool = True,
     ) -> None:
-        """
-        And a message to this log.
-        'text' is the message text, 'fg' is the text color.
-        If 'stack' is True then the message can stack with a previous message of the same text.
+        """Add a message to this log.
+
+        `text` is the message text, `fg` is the text color.
+
+        If `stack` is True then the message can stack with a previous message
+        of the same text.
         """
         if stack and self.messages and text == self.messages[-1].plain_text:
             self.messages[-1].count += 1
-        else: self.messages.append(Message(text, fg))
+        else:
+            self.messages.append(Message(text, fg))
 
     def render(
         self, console: tcod.Console, x: int, y: int, width: int, height: int,
     ) -> None:
-        """
-        Render this log over the ggiven area.
-        'x', 'y', 'width', 'height' is the rectangular region to render onto the 'console'.
+        """Render this log over the given area.
+
+        `x`, `y`, `width`, `height` is the rectangular region to render onto
+        the `console`.
         """
         self.render_messages(console, x, y, width, height, self.messages)
-        
+
     @staticmethod
     def wrap(string: str, width: int) -> Iterable[str]:
         """Return a wrapped text message."""
@@ -63,9 +67,10 @@ class MessageLog:
         height: int,
         messages: Reversible[Message],
     ) -> None:
-        """
-        Render the messages provided.
-        the 'messages' are rendered starting at the last message and working backwards.
+        """Render the messages provided.
+
+        The `messages` are rendered starting at the last message and working
+        backwards.
         """
         y_offset = height - 1
 

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import copy
-from typing import Optional, Tuple, Type, TypeVar, TYPE_CHECKING
+from typing import Optional, Tuple, Type, TypeVar, TYPE_CHECKING, Union
 
 from render_order import RenderOrder
 
@@ -20,7 +20,7 @@ class Entity:
     A generic object to represent players, enemies, items, etc.
     """
 
-    parent: GameMap
+    parent: Union[GameMap, Inventory]
 
     def __init__(
         self,
@@ -59,9 +59,9 @@ class Entity:
         return clone
 
     def place(self, x: int, y: int, gamemap: Optional[GameMap] = None) -> None:
-        """Place this entity at a new location. Handles moving across GameMaps."""
-        self.x = x 
-        self.y = y 
+        """Place this entitiy at a new location.  Handles moving across GameMaps."""
+        self.x = x
+        self.y = y
         if gamemap:
             if hasattr(self, "parent"):  # Possibly uninitialized.
                 if self.parent is self.gamemap:
@@ -73,6 +73,7 @@ class Entity:
         # Move the entity by a given amount
         self.x += dx
         self.y += dy
+
 
 class Actor(Entity):
     def __init__(
@@ -107,7 +108,7 @@ class Actor(Entity):
 
     @property
     def is_alive(self) -> bool:
-        """Retuurns True as long as this actor rcan nperform actions."""
+        """Returns True as long as this actor can perform actions."""
         return bool(self.ai)
 
 

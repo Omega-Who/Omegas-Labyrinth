@@ -66,7 +66,7 @@ def main() -> None:
                     context.convert_event(event)
                     engine.event_handler.handle_events(event)
             except Exception:  # Handle exceptions in game.
-                traceback.print_exc()  # Print error to stderr
+                traceback.print_exc()  # Print error to stderr.
                 # Then print the error to the message log.
                 engine.message_log.add_message(traceback.format_exc(), color.error)
 

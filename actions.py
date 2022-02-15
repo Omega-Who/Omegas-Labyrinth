@@ -3,7 +3,6 @@ from __future__ import annotations
 from typing import Optional, Tuple, TYPE_CHECKING
 
 import color
-from components.inventory import Inventory
 import exceptions
 
 if TYPE_CHECKING:
@@ -54,20 +53,20 @@ class PickupAction(Action):
                 inventory.items.append(item)
 
                 self.engine.message_log.add_message(f"You picked up the {item.name}!")
-                return 
+                return
 
         raise exceptions.Impossible("There is nothing here to pick up.")
 
 
 class ItemAction(Action):
     def __init__(
-            self, entity: Actor, item: Item, target_xy: Optional[Tuple[int, int]] = None
-        ):
-            super().__init__(entity)
-            self.item = item 
-            if not target_xy:
-                target_xy = entity.x, entity.y 
-            self.target_xy = target_xy
+        self, entity: Actor, item: Item, target_xy: Optional[Tuple[int, int]] = None
+    ):
+        super().__init__(entity)
+        self.item = item
+        if not target_xy:
+            target_xy = entity.x, entity.y
+        self.target_xy = target_xy
 
     @property
     def target_actor(self) -> Optional[Actor]:
@@ -77,11 +76,6 @@ class ItemAction(Action):
     def perform(self) -> None:
         """Invoke the items ability, this action will be given to provide context."""
         self.item.consumable.activate(self)
-
-
-class EscapeAction(Action):
-    def perform(selfy) -> None:
-        raise SystemExit()
 
 
 class DropItem(ItemAction):
@@ -108,7 +102,7 @@ class ActionWithDirection(Action):
 
     @property
     def blocking_entity(self) -> Optional[Entity]:
-        """Return the blocking entity at this actions destination."""
+        """Return the blocking entity at this actions destination.."""
         return self.engine.game_map.get_blocking_entity_at_location(*self.dest_xy)
 
     @property
@@ -124,7 +118,7 @@ class MeleeAction(ActionWithDirection):
     def perform(self) -> None:
         target = self.target_actor
         if not target:
-            return exceptions.Impossible("Nothing to attack.")
+            raise exceptions.Impossible("Nothing to attack.")
 
         damage = self.entity.fighter.power - target.fighter.defense
 
