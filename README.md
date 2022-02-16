@@ -1,11 +1,11 @@
 # Rouge Rogue
 The first project made for the Semester 2, 2022, CS 162 Class 
 
-<b>In Rouge Rogue you play as a Rogue exploring randomly generated dungeons fighting Trolls and Orcs along the way. It would be best if you kept some potions on yourself during the exploration.</b>
+In Rouge Rogue you play as a Rogue exploring randomly generated dungeons fighting Trolls and Orcs along the way. It would be best if you kept some potions on yourself during the exploration.
 
-HOW TO PLAY:
+<b>HOW TO PLAY:</b>
 
-Arrow Keys: Move around the dungeons and to fight monsters by ramming into them!
+*Arrow Keys:* Move around the dungeons and to fight monsters by ramming into them!
 <br>
 G: Used to pick up items on the floor!
 <br>
