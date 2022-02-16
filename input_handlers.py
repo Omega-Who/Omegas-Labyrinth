@@ -425,6 +425,7 @@ class SelectIndexHandler(AskUserEventHandler):
             if event.mod & (tcod.event.KMOD_LALT | tcod.event.KMOD_RALT):
                 modifier *= 20
 
+
             x, y = self.engine.mouse_location
             dx, dy = MOVE_KEYS[key]
             x += dx * modifier
@@ -517,7 +518,7 @@ class MainGameEventHandler(EventHandler):
 
         player = self.engine.player
 
-        if key == tcod.event.K_PERIOD and modifier & (
+        if key == tcod.event.K_g and modifier & (
             tcod.event.KMOD_LSHIFT | tcod.event.KMOD_RSHIFT
         ):
             return actions.TakeStairsAction(player)
