@@ -6,6 +6,7 @@ In Rouge Rogue you play as a Rogue exploring randomly generated dungeons fightin
 HOW TO PLAY:
 
 Arrow Keys: Move around the dungeons and to fight monsters by ramming into them!
+<br>
 G: Used to pick up items on the floor!
 I: Opens up your inventory!
     - To navigate the items in the inventory press keys A-Z as they appear on the list to use the items!
