@@ -12,5 +12,7 @@ I: Opens up your inventory!
 V: Opens up the event log letting you peek into the history of your adventure!
 /: Allows you to look around the map and look at what is around your FOV!
 D: Opens up your inventory to drop items you no longer want!
+C: Lets you look at the player details!
+    - Also provides you insight on how far away you are from Leveling up!
 ESC: Alternative way to exit the game!
 PERIOD, KEYPAD 5, and CLEAR: Wait keys for when you don't want to move on your turn!
