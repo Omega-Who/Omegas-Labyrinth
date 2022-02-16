@@ -1,2 +1,7 @@
 # Saved games
 *.sav 
+
+# __pycache__
+__pycache__/
+components/__pycache__
+*.pyc
