@@ -1,5 +1,5 @@
 # Omega's Labyrinth by Omega-Who/omega#6252
-The first project made my CS 162 Class!
+The first project made for my CS 162 Class!
 
 
 **HOW TO INSTALL:**
