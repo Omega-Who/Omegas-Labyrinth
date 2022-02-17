@@ -15,7 +15,7 @@ player = Actor(
     equipment=Equipment(),
     fighter=Fighter(hp=30, base_defense=1, base_power=3),
     inventory=Inventory(capacity=26),
-    level=Level(level_up_base=50),
+    level=Level(level_up_base=100),
 )
 
 # Enemies
@@ -93,63 +93,63 @@ minotaur = Actor(
 # Items
 
 confusion_scroll = Item(
-    char="+",
+    char="$",
     color=(207, 63, 255),
     name="Confusion Scroll",
     consumable=consumable.ConfusionConsumable(number_of_turns=10),
 )
 
 fireball_scroll = Item(
-    char="+",
+    char="$",
     color=(255, 0, 0),
     name="Fireball Scroll",
     consumable=consumable.FireballDamageConsumable(damage=12, radius=3),
 )
 
 health_potion = Item(
-    char="+",
+    char="$",
     color=(0, 150, 255),
     name="Health Potion",
     consumable=consumable.HealingConsumable(amount=4),
 )
 
 elixir = Item(
-    char="+",
+    char="$",
     color=(128, 0, 128),
     name=("Elixir"),
     consumable=consumable.ElixirConsumable(amount=8)
 )
 
 lightning_scroll = Item(
-    char="+",
+    char="$",
     color=(255, 255, 0),
     name="Lightning Scroll",
     consumable=consumable.LightningDamageConsumable(damage=20, maximum_range=5),
 )
 
 dagger = Item(
-    char="/", 
+    char="-", 
     color=(0, 191, 255), 
     name="Dagger", 
     equippable=equippable.Dagger(),
 )
 
 sword = Item(
-    char="/", 
+    char="-", 
     color=(0, 191, 255), 
     name="Sword", 
     equippable=equippable.Sword(),
 )
 
 leather_armor = Item(
-    char="[",
+    char="~",
     color=(139, 69, 19),
     name="Leather Armor",
     equippable=equippable.LeatherArmor(),
 )
 
 chain_mail = Item(
-    char="[",
+    char="~",
     color=(139, 69, 19),
     name="Chain Mail",
     equippable=equippable.ChainMail()

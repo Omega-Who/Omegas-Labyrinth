@@ -82,6 +82,6 @@ class Equipment(BaseComponent):
             slot = "armor"
 
         if getattr(self, slot) == equippable_item:
-            self.unequip_from_slotw(slot, add_message)
+            self.unequip_from_slot(slot, add_message)
         else:
             self.equip_to_slot(slot, equippable_item, add_message)

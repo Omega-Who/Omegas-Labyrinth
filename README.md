@@ -1,6 +1,7 @@
 # Omega's Labyrinth
 The first project made for my CS 162 Class!<br>
-I plan to continue adding to this until around early-mid March or until I decide I'm done with this project and move onto a new one!
+I plan to continue adding to this until around early-mid March or until I decide I'm done with this project and move onto a new one!<br>
+I would also like to mention I would not have been able to make this without the help of a [Tutorial](https://rogueliketutorials.com/tutorials/tcod/v2/)
 
 **HOW TO INSTALL:**
 
