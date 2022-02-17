@@ -30,18 +30,18 @@ To launch the game you will need to open up a Powershell, Python Shell, or Comma
 
 For the items present in this game please keep in mind they share similar icons, just different colors!<br>
 
-*Consumables*
-The Blue Potion represents a Health potion, healing you for up to 4 points of HP!
-The Purple Potion represents an Elixir, healing you for up to 8 points of HP!
-The Yellow Potion represents a Lighting Potion, Zapping your opponents for 20 damage!
-The Red Potion represents a Fireball Potion, Throwing it at your enemies will create a 3x3 area of 12 damage! Though, watch out as you might just feel it too!
-The Pink Potion represents a Confusion Potion, Targeting an enemy with it will make them Confused and walk around randomly for 10 turns!
+*Consumables*<br>v
+The Blue Potion represents a Health potion, healing you for up to 4 points of HP!<br>v
+The Purple Potion represents an Elixir, healing you for up to 8 points of HP!<br>v
+The Yellow Potion represents a Lighting Potion, Zapping your opponents for 20 damage!<br>
+The Red Potion represents a Fireball Potion, Throwing it at your enemies will create a 3x3 area of 12 damage! Though, watch out as you might just feel it too!<br>
+The Pink Potion represents a Confusion Potion, Targeting an enemy with it will make them Confused and walk around randomly for 10 turns!<br>
 
-*Equipment:*
-The Sword represents weapons that can appear past floors 4!
-The Armor represents armors that can appear past floors 5!
+*Equipment:*<br>
+The Sword represents weapons that can appear past floors 4!<br>
+The Armor represents armors that can appear past floors 5!<br>
 
-**CONTACT:**
+**CONTACT:**<br>
 If you have any questions or suggestions please contact me through my, Discord or Twitter DMs!<br>
 Discord: omega#6252<br>
 Twitter: @omega_who
