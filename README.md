@@ -1,4 +1,4 @@
-# Omega's Labyrinth by Omega-Who/omega#6252
+# Omega's Labyrinth
 The first project made for my CS 162 Class!
 
 **HOW TO INSTALL:**
