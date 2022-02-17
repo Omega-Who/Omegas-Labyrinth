@@ -1,10 +1,10 @@
 # Omega's Labyrinth
 The first project made for my CS 162 Class!<br>
-I plan to continue adding to this until around early-mid March or until I decide im done with this project and move onto a new one!
+I plan to continue adding to this until around early-mid March or until I decide I'm done with this project and move onto a new one!
 
 **HOW TO INSTALL:**
 
-Installation is simple, first you need to install the latest version of Python at the time of writing this being 3.10.2<br>
+Installation is simple, first you need to install the latest version of [Python](https://www.python.org/downloads/) at the time of writing this being 3.10.2<br>
 After you install Python open a Command Prompt window and redirect commands to this folder. <br>
 Once that is done type 'pip install -r requirements.txt' to download the needed packages.<br>
 To launch the game you will need to open up a Powershell, Python Shell, or Command Promt then change to the games directory; then type in 'python main.py' to finally play the game!
@@ -45,4 +45,4 @@ The Armor represents armors that can appear past floors 5!<br>
 **CONTACT:**<br>
 If you have any questions or suggestions please contact me through my, Discord or Twitter DMs!<br>
 Discord: omega#6252<br>
-Twitter: @omega_who
+Twitter: [@omega_who](https://twitter.com/omega_who)
