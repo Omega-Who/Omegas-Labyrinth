@@ -13,9 +13,9 @@ player = Actor(
     name="Player",
     ai_cls=HostileEnemy,
     equipment=Equipment(),
-    fighter=Fighter(hp=30, base_defense=2, base_power=5),
+    fighter=Fighter(hp=30, base_defense=1, base_power=3),
     inventory=Inventory(capacity=26),
-    level=Level(level_up_base=200),
+    level=Level(level_up_base=50),
 )
 
 # Enemies
@@ -26,7 +26,7 @@ goblin = Actor(
     name="Goblin",
     ai_cls=HostileEnemy,
     equipment=Equipment(),
-    fighter=Fighter(hp=5, base_defense=0, base_power=2),
+    fighter=Fighter(hp=5, base_defense=0, base_power=3),
     inventory=Inventory(capacity=0),
     level=Level(xp_given=10),
 )
@@ -37,7 +37,7 @@ hobgoblin = Actor(
     name="Hobgoblin",
     ai_cls=HostileEnemy,
     equipment=Equipment(),
-    fighter=Fighter(hp=8, base_defense=0, base_power=2),
+    fighter=Fighter(hp=8, base_defense=1, base_power=4),
     inventory=Inventory(capacity=0),
     level=Level(xp_given=25),
 )
@@ -48,7 +48,7 @@ orc = Actor(
     name="Orc",
     ai_cls=HostileEnemy,
     equipment=Equipment(),
-    fighter=Fighter(hp=10, base_defense=0, base_power=3),
+    fighter=Fighter(hp=10, base_defense=0, base_power=4),
     inventory=Inventory(capacity=0),
     level=Level(xp_given=35),
 )
@@ -59,7 +59,7 @@ troll = Actor(
     name="Troll",
     ai_cls=HostileEnemy,
     equipment=Equipment(),
-    fighter=Fighter(hp=16, base_defense=1, base_power=4),
+    fighter=Fighter(hp=16, base_defense=1, base_power=5),
     inventory=Inventory(capacity=0),
     level=Level(xp_given=100),
 )
@@ -72,7 +72,7 @@ goblin_king = Actor(
     name="Goblin King",
     ai_cls=HostileEnemy,
     equipment=Equipment(),
-    fighter=Fighter(hp=24, base_defense=3, base_power=3),
+    fighter=Fighter(hp=24, base_defense=2, base_power=6),
     inventory=Inventory(capacity=0),
     level=Level(xp_given=200),
 )
@@ -80,10 +80,10 @@ goblin_king = Actor(
 minotaur = Actor(
     char="M",
     color=(225, 193, 110),
-    anme="Minotaur",
+    name="Minotaur",
     ai_cls=HostileEnemy,
     equipment=Equipment(equippable.Sword),
-    fighter=Fighter(hp=24, base_defense=2, base_power=3),
+    fighter=Fighter(hp=24, base_defense=3, base_power=7),
     inventory=Inventory(capacity=0),
     level=Level(xp_given=250),
 )
