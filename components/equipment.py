@@ -18,7 +18,7 @@ class Equipment(BaseComponent):
 
     @property
     def defense_bonus(self) -> int:
-        bonus - 0
+        bonus = 0
 
         if self.weapon is not None and self.weapon.equippable is not None:
             bonus += self.weapon.equippable.defense_bonus
@@ -75,7 +75,7 @@ class Equipment(BaseComponent):
     def toggle_equip(self, equippable_item: Item, add_message: bool = True) -> None:
         if (
             equippable_item.equippable
-            and equippable_item.equippable.equpment_type == EquipmentType.WEAPON
+            and equippable_item.equippable.equipment_type == EquipmentType.WEAPON
         ):
             slot = "weapon"
         else:

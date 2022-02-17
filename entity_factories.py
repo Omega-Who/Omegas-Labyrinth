@@ -20,6 +20,28 @@ player = Actor(
 
 # Enemies
 
+goblin = Actor(
+    char="g",
+    color=(34, 139, 34),
+    name="Goblin",
+    ai_cls=HostileEnemy,
+    equipment=Equipment(),
+    fighter=Fighter(hp=5, base_defense=0, base_power=2),
+    inventory=Inventory(capacity=0),
+    level=Level(xp_given=10),
+)
+
+hobgoblin = Actor(
+    char="H",
+    color=(0, 128, 0),
+    name="Hobgoblin",
+    ai_cls=HostileEnemy,
+    equipment=Equipment(),
+    fighter=Fighter(hp=8, base_defense=0, base_power=2),
+    inventory=Inventory(capacity=0),
+    level=Level(xp_given=25),
+)
+
 orc = Actor(
     char="o",
     color=(63, 127, 63),
@@ -33,7 +55,7 @@ orc = Actor(
 
 troll = Actor(
     char="T",
-    color=(0, 127, 0),
+    color=(0, 100, 0),
     name="Troll",
     ai_cls=HostileEnemy,
     equipment=Equipment(),
@@ -43,6 +65,28 @@ troll = Actor(
 )
 
 # Miniboss(es)
+
+goblin_king = Actor(
+    char="K",
+    color=(53, 94, 59),
+    name="Goblin King",
+    ai_cls=HostileEnemy,
+    equipment=Equipment(),
+    fighter=Fighter(hp=24, base_defense=3, base_power=3),
+    inventory=Inventory(capacity=0),
+    level=Level(xp_given=200),
+)
+
+minotaur = Actor(
+    char="M",
+    color=(225, 193, 110),
+    anme="Minotaur",
+    ai_cls=HostileEnemy,
+    equipment=Equipment(equippable.Sword),
+    fighter=Fighter(hp=24, base_defense=2, base_power=3),
+    inventory=Inventory(capacity=0),
+    level=Level(xp_given=250),
+)
 
 """Insert Them here at some point."""
 
@@ -93,6 +137,7 @@ sword = Item(
 leather_armor = Item(
     char="[",
     color=(139, 69, 19),
+    name="Leather Armor",
     equippable=equippable.LeatherArmor(),
 )
 
