@@ -1,7 +1,12 @@
-# Rouge Rogue
-The first project made for the Semester 2, 2022, CS 162 Class 
+# Omega's Labyrinth by Omega-Who/omega#6252
+The first project made my CS 162 Class!
 
-In Rouge Rogue you play as a Rogue exploring randomly generated dungeons fighting Trolls and Orcs along the way. It would be best if you kept some potions on yourself during the exploration.
+
+**HOW TO INSTALL:**
+
+Installation is simple, first you need to install the latest version of Python at the time of writing this being 3.10.2<br>
+After you install Python open a Command Prompt window and redirect commands to this folder. After doing so type 'pip install -r requirements.txt' to download the needed packages.<br>
+Once that is all done open up a Powershell, Python Shell, or Command Promt and locate to the games directory and then type in 'python main.py' to open the game!
 
 **HOW TO PLAY:**
 
