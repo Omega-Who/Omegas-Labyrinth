@@ -108,9 +108,16 @@ fireball_scroll = Item(
 
 health_potion = Item(
     char="+",
-    color=(127, 0, 255),
+    color=(0, 150, 255),
     name="Health Potion",
     consumable=consumable.HealingConsumable(amount=4),
+)
+
+elixir = Item(
+    char="+",
+    color=(128, 0, 128),
+    name=("Elixir"),
+    consumable=consumable.ElixirConsumable(amount=8)
 )
 
 lightning_scroll = Item(
