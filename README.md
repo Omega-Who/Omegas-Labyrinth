@@ -1,12 +1,12 @@
 # Omega's Labyrinth by Omega-Who/omega#6252
 The first project made for my CS 162 Class!
 
-
 **HOW TO INSTALL:**
 
 Installation is simple, first you need to install the latest version of Python at the time of writing this being 3.10.2<br>
-After you install Python open a Command Prompt window and redirect commands to this folder. After doing so type 'pip install -r requirements.txt' to download the needed packages.<br>
-Once that is all done open up a Powershell, Python Shell, or Command Promt and locate to the games directory and then type in 'python main.py' to open the game!
+After you install Python open a Command Prompt window and redirect commands to this folder. <br>
+Once that is done type 'pip install -r requirements.txt' to download the needed packages.<br>
+To launch the game you will need to open up a Powershell, Python Shell, or Command Promt then change to the games directory; then type in 'python main.py' to finally play the game!
 
 **HOW TO PLAY:**
 
@@ -25,3 +25,8 @@ Once that is all done open up a Powershell, Python Shell, or Command Promt and l
 *ESC:* Alternative way to exit the game!<br>
 *PERIOD, KEYPAD 5, and CLEAR:* Wait keys for when you don't want to move on your turn!<br>
 *SHIFT + G*: Makes it so you can descend further into the dungeon
+
+**CONTACT:**
+If you have any questions or suggestions please contact me through my, Discord or Twitter DMs!<br>
+Discord: omega#6252
+Twitter: @omega_who
