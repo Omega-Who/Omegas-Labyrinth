@@ -19,4 +19,4 @@ In Rouge Rogue you play as a Rogue exploring randomly generated dungeons fightin
     - You level up by pressing a, b, or c on your keyboard allowing you to raise one of the three stats!<br>
 *ESC:* Alternative way to exit the game!<br>
 *PERIOD, KEYPAD 5, and CLEAR:* Wait keys for when you don't want to move on your turn!<br>
-*SHIFT + PERIOD*: Makes it so you can descend further into the dungeon
+*SHIFT + G*: Makes it so you can descend further into the dungeon
