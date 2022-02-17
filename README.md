@@ -1,5 +1,6 @@
 # Omega's Labyrinth
-The first project made for my CS 162 Class!
+The first project made for my CS 162 Class!<br>
+I plan to continue adding to this until around early-mid March or until I decide im done with this project and move onto a new one!
 
 **HOW TO INSTALL:**
 
