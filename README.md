@@ -51,6 +51,6 @@ The Sword represents weapons that can appear past floors 4!<br>
 The Armor represents armors that can appear past floors 5!<br>
 
 **CONTACT:**<br>
-If you have any questions or suggestions please contact me through my, Discord or Twitter DMs!<br>
+If you have any questions, problems, or suggestions please contact me through my, Discord or Twitter DMs!<br>
 Discord: omega#6252<br>
 Twitter: [@omega_who](https://twitter.com/omega_who)
