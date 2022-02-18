@@ -6,7 +6,7 @@ I would also like to mention I would not have been able to make this without the
 
 **HOW TO INSTALL:**
 
-After you install the Source Code.zip file, to play the game click on Game.exe and it will launch the game!<br>
+After you install the Game.zip file, to play the game click on Game.exe and it will launch the game!<br>
 
 If you don't have Python and want to edit the game or look at the code then follow what is mentioned below!<br>
 
