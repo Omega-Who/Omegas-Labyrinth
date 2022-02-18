@@ -3,19 +3,18 @@ The first project made for my CS 162 Class!<br>
 I plan to continue adding to this until around early-mid March or until I decide I'm done with this project and move onto a new one!<br>
 I would also like to mention I would not have been able to make this without the help of a [Tutorial](https://rogueliketutorials.com/tutorials/tcod/v2/)
 
-**HOW TO PLAY:**
 
-*Install Method:*
+**HOW TO INSTALL:**
+
+After you install the Source Code.zip file, to play the game click on Game.exe and it will launch the game!<br>
+
+If you don't have Python and want to edit the game or look at the code then follow what is mentioned below!<br>
 
 Installation is simple, first you need to install the latest version of [Python](https://www.python.org/downloads/) at the time of writing this being 3.10.2<br>
 After you install Python open a Command Prompt window and redirect commands to this folder. <br>
 Once that is done type 'pip install -r requirements.txt' to download the needed packages.<br>
 To launch the game you will need to open up a Powershell, Python Shell, or Command Promt then change to the games directory; then type in 'python main.py' or '/main.py' to finally play the game!<br>
 
-*.exe Method:*
-
-To play the game click on main.exe and it will launch the game, no Python install needed!<br>
-Only downside to the .exe method is the reduction of self customization possible via editing the code.<br>
 
 **CONTROLS:**
 
@@ -34,6 +33,7 @@ Only downside to the .exe method is the reduction of self customization possible
 *ESC:* Alternative way to exit the game!<br>
 *PERIOD, KEYPAD 5, and CLEAR:* Wait keys for when you don't want to move on your turn!<br>
 *SHIFT + G*: Makes it so you can descend further into the dungeon
+
 
 **ITEMS:**
 
