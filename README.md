@@ -3,14 +3,21 @@ The first project made for my CS 162 Class!<br>
 I plan to continue adding to this until around early-mid March or until I decide I'm done with this project and move onto a new one!<br>
 I would also like to mention I would not have been able to make this without the help of a [Tutorial](https://rogueliketutorials.com/tutorials/tcod/v2/)
 
-**HOW TO INSTALL:**
+**HOW TO PLAY:**
+
+*Install Method:*
 
 Installation is simple, first you need to install the latest version of [Python](https://www.python.org/downloads/) at the time of writing this being 3.10.2<br>
 After you install Python open a Command Prompt window and redirect commands to this folder. <br>
 Once that is done type 'pip install -r requirements.txt' to download the needed packages.<br>
-To launch the game you will need to open up a Powershell, Python Shell, or Command Promt then change to the games directory; then type in 'python main.py' to finally play the game!
+To launch the game you will need to open up a Powershell, Python Shell, or Command Promt then change to the games directory; then type in 'python main.py' or '/main.py' to finally play the game!<br>
 
-**HOW TO PLAY:**
+*.exe Method:*
+
+To play the game click on main.exe and it will launch the game, no Python install needed!<br>
+Only downside to the .exe method is the reduction of self customization possible via editing the code.<br>
+
+**CONTROLS:**
 
 *Arrow Keys:* Move around the dungeons and to fight monsters by ramming into them!
 <br>
