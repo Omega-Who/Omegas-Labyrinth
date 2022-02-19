@@ -1,6 +1,9 @@
 # Saved games
 *.sav 
 
+# Workspace
+*.code-workspace
+
 # __pycache__
 __pycache__/
 components/__pycache__
